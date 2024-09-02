@@ -1,6 +1,5 @@
-package week1.ListControl;
+package week1.listControl;
 
-import java.lang.reflect.Type;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.TreeSet;
