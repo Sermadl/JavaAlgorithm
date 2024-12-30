@@ -1,10 +1,12 @@
 package week4.roadSearch;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.*;
 
 public class Solution {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.out.println(Arrays.deepToString(solution(new int[][]{
                 new int[]{5, 3}, new int[]{11, 5}, new int[]{13, 3},
                 new int[]{3, 5}, new int[]{6, 1}, new int[]{1, 3},

@@ -1,6 +1,8 @@
 package week4.phonekepon;
 
-import java.util.HashSet;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
 
 public class Solution {
     public static void main(String[] args) {
@@ -11,6 +13,7 @@ public class Solution {
 
     private static int solution(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
+
         for (int num : nums) {
             set.add(num);
         }
